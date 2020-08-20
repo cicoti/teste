@@ -1,0 +1,213 @@
+<html>
+
+<head>
+<title>O Farol das Loterias - Lotofácil</title>
+<link rel="stylesheet" href="../bootstrap-4.1.3/css/bootstrap.min.css">
+<style>
+.btn-lotofacil {
+	color: #fff;
+	background-color: #7F3992;
+	border-color: #7F3992;
+}
+
+.btn-lotofacil:hover {
+	color: #A349A4;
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+
+.bola {
+	border: 2px solid #7F3992;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	line-height: 45px;
+	margin: 5px 5px;
+	display: inline-block;
+}
+
+.bola-invertida {
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	color: #ffffff;
+	vertical-align: middle;
+	background-color: #7F3992;
+	line-height: 45px;
+	margin: 5px 5px;
+	display: inline-block;
+}
+
+#alinhamento-bolas {
+	width: 100%;
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+	<div class="card-body">
+
+		<div>
+			<img src="imagens/ofaroladasloterias_peq.png" class="img-fluid"
+				alt="Responsive image">
+		</div>
+
+		<div class="card-body">
+			<div class="mx-auto">
+
+				<div class="card-body">
+					<div class="jumbotron">
+						<h1 class="display-5">Frequencia de sorteios.</h1>
+						<p class="lead">Esta pesquisa retorna quantas vezes o numero foi
+							sorteado.</p>
+						<hr class="my-4">
+
+						<p>A pesquisar será feita a partir desta seleção.</p>
+
+
+			<div class="form-inline">
+
+						<div class="input-lg mx-sm-2 mb-0" >
+
+							<input type="text" class="form-control form-control-lg"
+								id="numeroConcurso" placeholder="Qual concurso?">
+
+							<input type="text" class="form-control form-control-lg"
+								id="qtdConcurso" placeholder="Quantos concursos?">
+						</div>
+							<button type="submit" class="btn btn-lotofacil btn-lg"
+								id="qtdConcursosButton">Pesquisar</button>
+
+
+			</div>
+
+			</br>
+			<div class="form-inline">
+						<h3 id='concursos'></h3>
+			</div>
+
+
+						<div class="card-body mx-auto">
+							<div id="alinhamento-bolas">
+								<div class="bola">
+									<p class="font-weight-bold" id='bola1'></p><p class="lead" id='qtd1'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola2'></p><p class="lead" id='qtd2'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola3'></p><p class="lead" id='qtd3'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola4'></p><p class="lead" id='qtd4'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola5'></p><p class="lead" id='qtd5'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola6'></p><p class="lead" id='qtd6'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola7'></p><p class="lead" id='qtd7'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola8'></p><p class="lead" id='qtd8'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola9'></p><p class="lead" id='qtd9'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola10'></p><p class="lead" id='qtd10'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola11'></p><p class="lead" id='qtd11'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola12'></p><p class="lead" id='qtd12'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola13'></p><p class="lead" id='qtd13'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola14'></p><p class="lead" id='qtd14'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola15'></p><p class="lead" id='qtd15'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola16'></p><p class="lead" id='qtd16'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola17'></p><p class="lead" id='qtd17'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola18'></p><p class="lead" id='qtd18'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola19'></p><p class="lead" id='qtd19'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola20'></p><p class="lead" id='qtd20'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola21'></p><p class="lead" id='qtd21'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola22'></p><p class="lead" id='qtd22'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola23'></p><p class="lead" id='qtd23'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola24'></p><p class="lead" id='qtd24'></p>
+								</div>
+								<div class="bola">
+									<p class="font-weight-bold" id='bola25'></p><p class="lead" id='qtd25'></p>
+								</div>
+							</div>
+						</div>
+
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="mx-auto">
+
+				<div class="card-body">
+					<div class="jumbotron">
+						<h1 class="display-5">Sequencia de sorteios.</h1>
+						<p class="lead">Essa pesquisa retorna os sorteios ocorridos</p>
+						<hr class="my-4">
+
+						<p>A pesquisar será feita a partir da seleção acima</p>
+
+					      <div class="table-responsive">
+          						 <table id="sequenciaConcursos" class="table table-striped table-sm">
+					    	</table>
+					    </div>
+
+					</div>
+				</div>
+			</div>
+
+</div>
+
+
+
+
+
+	<script src="../jquery-3.5.1.min/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/lotofacil.js"></script>
+
+</body>
+
+</html>
